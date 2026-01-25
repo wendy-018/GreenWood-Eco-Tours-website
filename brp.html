@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <meta name="description" content="A Kenyan eco-tourism company offering guided tours to national parks, cultural sites, and nature trails, with a strong focus on sustainability and community support.">
+        <title> GreenWood Eco Tours - Booking Form </title>
+        <link rel="icon" type="image" href="Images/paper-recycling.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- header section -->
+        <header>
+            <!-- navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="about.html"> About us </a></li>
+                <li><a href="tsp.html"> Tours and Services Page </a></li>
+                <li><a href="brp.html"> Booking Request Page </a></li>
+                <li><a href="contact.html"> Contact Page </a></li>
+            </ul>
+        </nav>
+        </header>
+        <h2> Booking Request </h2>
+        <p> Please fill out the form below to request a booking for one of our 
+            tour packages. <br> Our team will contact you to confirm availability.</p>
+        <section id="form">
+            <form>
+                <fieldset>
+                    <legend> Booking A Package </legend>
+                    <label> Full Name: </label>
+                    <input type="text" name="name" required><br>
+                    <label> Email: </label>
+                    <input type="email" name="email" required><br>
+                    <label> Phone Number </label>
+                    <input type="tel" name="number" required><br>
+                    <label for="packages"> Pick a package </label>
+                    <select id="packages" name="packages">
+                        <option value="maasai"> The Maasai Mara Safari Experience </option>
+                        <option value="mkh"> Mount Kenya Hiking Adventure </option>
+                        <option value="diani">Diani Beach Relaxation Tour  </option>
+                    </select><br>
+                    <label> No. of people </label>
+                    <input type="number" name="number" required><br>
+                    <label> Date </label>
+                    <input type="date" name="date" required><br>
+                    <label> Any special requests </label><br>
+                    <textarea name="message" rows="5" columns="20"> </textarea><br>
+                    <button type="submit" name="submit"> Submit </button>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
